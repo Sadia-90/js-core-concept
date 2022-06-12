@@ -55,3 +55,23 @@
 
 // var returnedValue = sum(16, 35);
 // console.log(returnedValue)
+
+
+// problem solving
+
+// no. 1
+// print all even numbers from 0 -10
+
+// for (var i = 0; i <= 10; i++) {
+//     if (i % 2 == 0) {
+//         // console.log(i)
+//     }
+// }
+
+// print all odd numbers from 0 -10
+
+for (var i = 0; i <= 10; i++) {
+    if (i % 2 != 0) {
+        console.log(i)
+    }
+}
