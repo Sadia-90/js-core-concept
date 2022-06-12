@@ -45,3 +45,13 @@
 //     salary: 50000
 // }
 // console.log(person.salary)
+
+
+
+// function sum(number1, number2) {
+//     var result = number1 + number2;
+//     return result;
+// }
+
+// var returnedValue = sum(16, 35);
+// console.log(returnedValue)
