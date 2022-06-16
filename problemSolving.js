@@ -43,7 +43,65 @@
 
 
 
-let x = 5;
-let y = 2;
-let z = x - y;
-console.log(z);
+// let x = 5;
+// let y = 2;
+// let z = x - y;
+// console.log(z)
+
+
+// +oparetor
+
+// let x = 5;
+// x++;
+// let z = x;
+// console.log(z);
+
+
+
+// no. 5
+// Write a JavaScript program to check whether a given integer is within 20 of 100
+// function isPresent(number) {
+//     for (var i = 20; i < 100; i++) {
+//         if (i == number) {
+//             console.log('present')
+//         }
+       
+//     }
+// }
+
+
+// isPresent(66);
+
+
+
+// even number
+    // for (var i = 0; i < 100; i++) {
+    //     if (i % 2 == 0) {
+    //         console.log( i)
+    //     }
+       
+    // }
+
+    // odd number
+
+    // for (var i = 0; i < 100; i++) {
+    //     if (i % 2 != 0) {
+    //         console.log( i)
+    //     }
+       
+    // }
+
+
+
+
+    const myHobby = [
+        `Reciting Quran`,
+        `Coding`,
+        `Walking with Friends`,
+        `Watching Tech Podcast`,
+      ];
+      
+      console.log(myHobby[0]);
+      myHobby[0] = `Nothing Here`;
+
+
