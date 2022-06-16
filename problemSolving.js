@@ -94,14 +94,32 @@
 
 
 
-    const myHobby = [
-        `Reciting Quran`,
-        `Coding`,
-        `Walking with Friends`,
-        `Watching Tech Podcast`,
-      ];
+    // const myHobby = [
+    //     `Reciting Quran`,
+    //     `Coding`,
+    //     `Walking with Friends`,
+    //     `Watching Tech Podcast`,
+    //   ];
       
-      console.log(myHobby[0]);
-      myHobby[0] = `Nothing Here`;
+    //   console.log(myHobby[0]);
+    //   myHobby[0] = `Nothing Here`;???/
 
 
+    let mySelf = {
+        firstName: 'sadia',
+        lastName: `sultana`,
+        age: 32,
+        Religion: `Islam`,
+        favChannel: [`Islamic tv`, `Code with understanding`, `Jhankar Mahbub`, `Web Devolopment`],
+      };
+      
+      // console.log(mySelf.favChannel[3])
+      mySelf.favChannel[3] = `There is no Channel`;
+      // mySelf [`age`] = `soon will be 32, man`;
+
+
+      var Ideology = `Religion`;
+
+       mySelf[Ideology] = `No way, It's Islam Always`;
+
+        console.log(mySelf);
